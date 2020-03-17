@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#box1 {
+	height: 100vh;
+	width: 100%;
+	background-image: url(img/Mosque_Deli.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed; /* background image will be fixed against the containing block and will not scroll.  */
+}
+#box2 {
+	height: 100vh;
+	width: 100%;
+	background-image: url(img/Mosque_Istanbul.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+}
+#box3 {
+	height: 100vh;
+	width: 100%;
+	background-image: url(img/Mosque_Abu_Dabi.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+}
+#box4 {
+	height: 100vh;
+	width: 100%;
+	background-image: url(img/Mosque_Madina.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+}
+#box5 {
+	height: 100vh;
+	width: 100%;
+	background-image: url(img/Mosque_Tunisia.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+}
+#box6 {
+	height: 100vh;
+	width: 100%;
+	background-image: url(img/Mosque_Kazahstan.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+}
+h1 {
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	margin: 0px; /* removes gaps between the pics */
+	text-align: center;
+	display: table-cell; /* This element behaves like <td> */
+	padding-top: 20px; /* places headings 20px down from top */
+
+
+}
